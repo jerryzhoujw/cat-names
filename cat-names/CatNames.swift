@@ -13,3 +13,7 @@ public enum CatName: String {
     case Cat2
     case Cat3
 }
+
+public func allCatList() -> [CatName]{
+    return [.Cat1, .Cat2, .Cat3]
+}
