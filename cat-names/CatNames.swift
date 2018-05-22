@@ -12,8 +12,9 @@ public enum CatName: String {
     case Cat1
     case Cat2
     case Cat3
+    case Cat4
 }
 
 public func allCatList() -> [CatName]{
-    return [.Cat1, .Cat2, .Cat3]
+    return [.Cat1, .Cat2, .Cat3, .Cat4]
 }
